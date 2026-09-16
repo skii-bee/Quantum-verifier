@@ -1,0 +1,16 @@
+qiskit==2.5.2
+qiskit-aer==0.17.2
+qiskit-nature
+qiskit-machine-learning
+qiskit-optimization
+qiskit-ibm-runtime
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+torch
+torchvision
+torchaudio
+jupyter
+maturin

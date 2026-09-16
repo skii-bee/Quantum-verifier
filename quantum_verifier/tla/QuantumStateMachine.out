@@ -1,0 +1,207 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2026.09.16.163541 (rev: 957faa0)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 114 and seed 3251044533246709607 with 1 worker on 12 cores with 1655MB heap and 64MB offheap memory [pid: 16832] (Windows 11 10.0 amd64, Eclipse Adoptium 25.0.4.1 64bit, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file C:\Users\tumel\OneDrive\Desktop\Dev. Sector\Quantum leap\quantum_verifier\tla\QuantumStateMachine.tla (file:/c:/Users/tumel/OneDrive/Desktop/Dev.%20Sector/Quantum%20leap/quantum_verifier/tla/QuantumStateMachine.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\Integers.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\Reals.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/Reals.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\Sequences.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\FiniteSets.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\TLC.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\_TLCTrace.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\Naturals.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\tumel\AppData\Local\Temp\tlc-8023159853961093901\TLCExt.tla (jar:file:/C:/Users/tumel/.vscode/extensions/tlaplus.vscode-ide-2026.9.161644/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Reals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module QuantumStateMachine
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module QuantumStateMachine
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2026-09-16 20:52:21)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2026-09-16 20:52:22.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.7E-11
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2026-09-16 20:52:22 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<state line 23, col 5 to line 23, col 9 of module QuantumStateMachine>: 23036
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 126, col 1 to line 126, col 4 of module QuantumStateMachine>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 127, col 5 to line 127, col 27 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 127, col 13 to line 127, col 27 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 43, col 5 to line 44, col 77 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 43, col 7 to line 43, col 22 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 44, col 22 to line 44, col 75 of module QuantumStateMachine: 1:4
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 44, col 49 to line 44, col 74 of module QuantumStateMachine: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 44, col 52 to line 44, col 56 of module QuantumStateMachine: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 44, col 63 to line 44, col 67 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 44, col 29 to line 44, col 43 of module QuantumStateMachine: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 129, col 1 to line 129, col 4 of module QuantumStateMachine (130 8 130 29)>: 22365:22366
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 8 to line 130, col 29 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 130, col 17 to line 130, col 29 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 92, col 5 to line 92, col 44 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 66, col 14 to line 66, col 25 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 70, col 5 to line 80, col 5 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 70, col 7 to line 70, col 22 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||line 71, col 22 to line 79, col 7 of module QuantumStateMachine: 22366:89464
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 72, col 9 to line 78, col 27 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 72, col 12 to line 72, col 37 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 72, col 12 to line 72, col 22 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 72, col 27 to line 72, col 37 of module QuantumStateMachine: 44732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 74, col 13 to line 74, col 39 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 75, col 14 to line 78, col 27 of module QuantumStateMachine: 67098
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 75, col 17 to line 75, col 42 of module QuantumStateMachine: 67098
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 75, col 17 to line 75, col 27 of module QuantumStateMachine: 67098
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||||line 75, col 32 to line 75, col 42 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 76, col 13 to line 76, col 39 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 78, col 13 to line 78, col 27 of module QuantumStateMachine: 44732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 71, col 29 to line 71, col 43 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 92, col 15 to line 92, col 37 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 51, col 19 to line 51, col 27 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 49, col 14 to line 49, col 25 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 53, col 5 to line 62, col 5 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 53, col 7 to line 53, col 22 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||||line 54, col 22 to line 61, col 7 of module QuantumStateMachine: 22366:89464
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 55, col 20 to line 55, col 42 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 57, col 9 to line 60, col 78 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 57, col 12 to line 57, col 18 of module QuantumStateMachine: 89464
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 58, col 13 to line 58, col 78 of module QuantumStateMachine: 44732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 60, col 13 to line 60, col 78 of module QuantumStateMachine: 44732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 54, col 29 to line 54, col 43 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 92, col 29 to line 92, col 33 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 129, col 1 to line 129, col 4 of module QuantumStateMachine (131 8 131 22)>: 0:22366
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 131, col 8 to line 131, col 22 of module QuantumStateMachine: 22366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(22366) at 2026-09-16 20:52:22: 44 733 states generated (1 940 694 s/min), 22 366 distinct states found (970 325 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+44733 states generated, 22366 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 22366.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 1387ms at (2026-09-16 20:52:22)
+@!@!@ENDMSG 2186 @!@!@
