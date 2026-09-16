@@ -47,16 +47,12 @@ Fingerprint collision probability: 2.7E-11
 Distinct states found: 22,366
 Total states generated: 44,733
 
-text
-
 ## The Physics
 
 The Bell state is the canonical example of quantum entanglement. Starting from `|00⟩`, a Hadamard gate on qubit 0 creates superposition, and a CNOT gate entangles the two qubits:
 |00⟩ ──H──●── (|00⟩ + |11⟩)/√2
 │
 |00⟩ ─────X──
-
-text
 
 The final statevector is `[0.7071, 0, 0, 0.7071]`. The qubits are now correlated: measuring one instantly determines the other. This is impossible in classical computing.
 
@@ -85,8 +81,6 @@ quantum_verifier/
 ├── docs/
 │ └── amplitude-scaling.md # The integer scaling insight
 └── README.md
-
-text
 
 ## Setup
 bash
